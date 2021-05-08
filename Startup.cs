@@ -20,6 +20,7 @@ namespace JWTClient
             {
                 //We check the cookie to confirm that we are authenticated
                 config.DefaultAuthenticateScheme = "ClientCookie";
+                config.DefaultSignInScheme = "ClientCookie";
             })
                 .AddCookie("ClientCookie")
                 .AddOAuth("OurServer", config => 
