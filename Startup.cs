@@ -24,7 +24,7 @@ namespace JWTClient
                 //when we sign in we will deal out a cookie.
                 config.DefaultSignInScheme = "ClientCookie";
 
-                //use this to check if we are allowed to do something.
+                //use this to check if we are allowed to do something
                 config.DefaultChallengeScheme = "OurServer";
             })
                 .AddCookie("ClientCookie")
