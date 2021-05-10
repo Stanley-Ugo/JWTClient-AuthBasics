@@ -37,7 +37,7 @@ namespace JWTClient
                     config.TokenEndpoint = "https://localhost:44339/oauth/token";
                 });
 
-            services.AddControllersWithViews();
+            services.AddControllersWithViews().AddRazorRuntimeCompilation();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
