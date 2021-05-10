@@ -18,7 +18,7 @@ namespace JWTClient
         {
             services.AddAuthentication(config => 
             {
-                //We check the cookie to confirm that we are authenticated
+                //We check the cookie to confirm that we are authenticated.
                 config.DefaultAuthenticateScheme = "ClientCookie";
 
                 //when we sign in we will deal out a cookie
