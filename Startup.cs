@@ -21,7 +21,7 @@ namespace JWTClient
                 //We check the cookie to confirm that we are authenticated.
                 config.DefaultAuthenticateScheme = "ClientCookie";
 
-                //when we sign in we will deal out a cookie
+                //when we sign in we will deal out a cookie.
                 config.DefaultSignInScheme = "ClientCookie";
 
                 //use this to check if we are allowed to do something.
