@@ -30,7 +30,7 @@ namespace JWTClient
                 .AddCookie("ClientCookie")
                 .AddOAuth("OurServer", config => 
                 {
-                    config.ClientId = "client_id";
+                    config.ClientId = "client_id"; 
                     config.ClientSecret = "client_secret";
                     config.CallbackPath = "/oauth/callback";
                     config.AuthorizationEndpoint = "https://localhost:44339/oauth/authorize";
