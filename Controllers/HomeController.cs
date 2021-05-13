@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace JWTClient.Controllers
 {
+
     public class HomeController : Controller
     {
         public IActionResult Index()
