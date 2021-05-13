@@ -17,7 +17,6 @@ namespace JWTClient.Controllers
         [Authorize]
         public IActionResult Secret()
         {
-
             return View();
         }
     }
