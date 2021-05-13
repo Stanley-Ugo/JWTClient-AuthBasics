@@ -11,7 +11,6 @@ namespace JWTClient.Controllers
     {
         public IActionResult Index()
         {
-
             return View();
         }
 
